@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/PortfolioAkshay/static/css/main.3e93dc5a.css",
-    "main.js": "/PortfolioAkshay/static/js/main.9c928968.js",
-    "static/media/remixicon.svg?t=1718271040674": "/PortfolioAkshay/static/media/remixicon.f38690bdde29bddbc211.svg",
-    "static/media/remixicon.eot?t=1718271040674": "/PortfolioAkshay/static/media/remixicon.d87042cf9a3f67d1cab2.eot",
-    "static/media/remixicon.ttf?t=1718271040674": "/PortfolioAkshay/static/media/remixicon.88da6179288d7835c2f0.ttf",
-    "static/media/portfolio-02.jpg": "/PortfolioAkshay/static/media/portfolio-02.252aa09cb6d9c71bebca.jpg",
-    "static/media/akshay.png": "/PortfolioAkshay/static/media/akshay.e053314201843e26fc4d.png",
-    "static/media/remixicon.woff?t=1718271040674": "/PortfolioAkshay/static/media/remixicon.1bdc36c90398c9d667d1.woff",
-    "static/media/portfolio-01.jpg": "/PortfolioAkshay/static/media/portfolio-01.c9a2afcba325392ae82c.jpg",
-    "static/media/remixicon.woff2?t=1718271040674": "/PortfolioAkshay/static/media/remixicon.8aece9ab0de67b79cfda.woff2",
-    "static/media/portfolio-03.jpg": "/PortfolioAkshay/static/media/portfolio-03.c1fa2a0faf8a503d3fcc.jpg",
-    "static/media/portfolio-04.jpg": "/PortfolioAkshay/static/media/portfolio-04.232c072795f09517cebe.jpg",
-    "index.html": "/PortfolioAkshay/index.html",
-    "main.3e93dc5a.css.map": "/PortfolioAkshay/static/css/main.3e93dc5a.css.map",
-    "main.9c928968.js.map": "/PortfolioAkshay/static/js/main.9c928968.js.map"
+    "main.css": "/PortfolioAkshayBalte/static/css/main.847eff48.css",
+    "main.js": "/PortfolioAkshayBalte/static/js/main.97245067.js",
+    "static/media/remixicon.svg?t=1718271040674": "/PortfolioAkshayBalte/static/media/remixicon.f38690bdde29bddbc211.svg",
+    "static/media/remixicon.eot?t=1718271040674": "/PortfolioAkshayBalte/static/media/remixicon.d87042cf9a3f67d1cab2.eot",
+    "static/media/remixicon.ttf?t=1718271040674": "/PortfolioAkshayBalte/static/media/remixicon.88da6179288d7835c2f0.ttf",
+    "static/media/portfolio-02.jpg": "/PortfolioAkshayBalte/static/media/portfolio-02.252aa09cb6d9c71bebca.jpg",
+    "static/media/akshay.png": "/PortfolioAkshayBalte/static/media/akshay.e053314201843e26fc4d.png",
+    "static/media/remixicon.woff?t=1718271040674": "/PortfolioAkshayBalte/static/media/remixicon.1bdc36c90398c9d667d1.woff",
+    "static/media/portfolio-01.jpg": "/PortfolioAkshayBalte/static/media/portfolio-01.c9a2afcba325392ae82c.jpg",
+    "static/media/remixicon.woff2?t=1718271040674": "/PortfolioAkshayBalte/static/media/remixicon.8aece9ab0de67b79cfda.woff2",
+    "static/media/portfolio-03.jpg": "/PortfolioAkshayBalte/static/media/portfolio-03.c1fa2a0faf8a503d3fcc.jpg",
+    "static/media/portfolio-04.jpg": "/PortfolioAkshayBalte/static/media/portfolio-04.232c072795f09517cebe.jpg",
+    "index.html": "/PortfolioAkshayBalte/index.html",
+    "main.847eff48.css.map": "/PortfolioAkshayBalte/static/css/main.847eff48.css.map",
+    "main.97245067.js.map": "/PortfolioAkshayBalte/static/js/main.97245067.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e93dc5a.css",
-    "static/js/main.9c928968.js"
+    "static/css/main.847eff48.css",
+    "static/js/main.97245067.js"
   ]
 }
