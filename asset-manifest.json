@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortfolioAkshayBalte/static/css/main.847eff48.css",
-    "main.js": "/PortfolioAkshayBalte/static/js/main.97245067.js",
+    "main.css": "/PortfolioAkshayBalte/static/css/main.6c9d1633.css",
+    "main.js": "/PortfolioAkshayBalte/static/js/main.7e1d0665.js",
     "static/media/remixicon.svg?t=1718271040674": "/PortfolioAkshayBalte/static/media/remixicon.f38690bdde29bddbc211.svg",
     "static/media/remixicon.eot?t=1718271040674": "/PortfolioAkshayBalte/static/media/remixicon.d87042cf9a3f67d1cab2.eot",
     "static/media/remixicon.ttf?t=1718271040674": "/PortfolioAkshayBalte/static/media/remixicon.88da6179288d7835c2f0.ttf",
@@ -13,11 +13,11 @@
     "static/media/portfolio-03.jpg": "/PortfolioAkshayBalte/static/media/portfolio-03.c1fa2a0faf8a503d3fcc.jpg",
     "static/media/portfolio-04.jpg": "/PortfolioAkshayBalte/static/media/portfolio-04.232c072795f09517cebe.jpg",
     "index.html": "/PortfolioAkshayBalte/index.html",
-    "main.847eff48.css.map": "/PortfolioAkshayBalte/static/css/main.847eff48.css.map",
-    "main.97245067.js.map": "/PortfolioAkshayBalte/static/js/main.97245067.js.map"
+    "main.6c9d1633.css.map": "/PortfolioAkshayBalte/static/css/main.6c9d1633.css.map",
+    "main.7e1d0665.js.map": "/PortfolioAkshayBalte/static/js/main.7e1d0665.js.map"
   },
   "entrypoints": [
-    "static/css/main.847eff48.css",
-    "static/js/main.97245067.js"
+    "static/css/main.6c9d1633.css",
+    "static/js/main.7e1d0665.js"
   ]
 }
