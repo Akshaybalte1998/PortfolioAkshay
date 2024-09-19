@@ -7,22 +7,34 @@ import UserInterface from './components/UserInterface/UserInterface';
 import Services from './components/UserInterface/Services';
 import Portfolio from './components/UserInterface/Portfolio';
 import Contact from './components/UserInterface/Contact';
+import Skills from './components/UserInterface/Skills';
 
 function App() {
-  useEffect(()=>{
+  useEffect(() => {
     Aos.init();
-  },[] );
+  }, []);
 
   return (
     <div className="App">
-      <Header/>
+      <Header />
       <main>
-       <UserInterface/>
-       <Services/>
-       <Portfolio/>
-       <Contact/>
+        <section id="home">
+          <UserInterface />
+        </section> 
+        <section id="services">
+          <Services />
+        </section>
+        <section id="skills">
+          <Skills />
+        </section>
+        <section id="portfolio">
+          <Portfolio />
+        </section>
+        <section id="contact">
+          <Contact />
+        </section>
       </main>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

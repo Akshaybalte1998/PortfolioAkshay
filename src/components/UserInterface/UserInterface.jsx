@@ -3,59 +3,85 @@ import { useMediaQuery } from 'react-responsive';
 import heroImage from "../../assets/images/akshay.png";
 
 const UserInterface = () => {
-  // Define media queries
+  // Media queries
   const isMobileDevice = useMediaQuery({ query: "(min-device-width: 480px)" });
-  const isTabletDevice = useMediaQuery({ query: "(min-device-width: 768px)" });
-  const isLaptop = useMediaQuery({ query: "(min-device-width: 1024px)" });
-  const isDesktop = useMediaQuery({ query: "(min-device-width: 1200px)" });
-  const isBigScreen = useMediaQuery({ query: "(min-device-width: 1201px)" });
+  const isTabletOrAbove = useMediaQuery({ query: "(min-device-width: 768px)" });
+  const isLaptopOrAbove = useMediaQuery({ query: "(min-device-width: 1024px)" });
 
   return (
-    <section className='pt-0' id="about">
-      <div className='container pt-14'>
-        {/* Hero left */}
-
-        
-        <div className='md:flex items-center justify-between sm:flex-col md:flex-row'>
-          <div className="w-full md:basis-1/2">
-            <h5 className='text-smallTextColor font-[500] text-[16px]'>
-              Hello, Welcome
-            </h5>
-            <h1 className='text-smallTextColor font-[800] text-[1.8rem] sm:text-[40px] leading-[35px] sm:leading-[45px] mt-5'>
+    <section className="bg-white text-gray-800 py-16" id="about">
+      <div className="container mx-auto px-4">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-12">
+          {/* Text Section */}
+          <div className="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left">
+            <h5 className="text-gray-600 font-semibold text-lg mb-2">Hello, Welcome</h5>
+            <h1 className="text-gray-900 font-extrabold text-3xl md:text-4xl leading-tight mb-4">
               I am Akshay Balte <br />
-              <p className='text-2xl'>Software Developer</p>
+              <span className="text-teal-600 text-2xl md:text-3xl">Software Developer</span>
             </h1>
-            <div className='flex items-center mt-7 gap-6'>
+            <div className="flex flex-col md:flex-row items-center justify-center md:justify-start gap-6 mb-8">
               <a href="#contact">
-                <button className='bg-primaryColor text-white font-[500] flex item-center gap-2 hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-[8px]'>
-                  <i className="ri-mail-fill"></i> Hire me
+                <button 
+                  className="bg-teal-500 text-white font-semibold flex items-center gap-2 px-5 py-2 rounded-lg border-none cursor-pointer transition-transform duration-300 ease-in hover:bg-teal-400 transform hover:scale-105"
+                  aria-label="Hire me"
+                >
+                  <i className="ri-mail-fill" aria-hidden="true"></i> Hire me
                 </button>
               </a>
-              <a href="#portfolio" className='text-smallTextColor font-[600] text-[16px] border-b border-solid border-smallTextColor'>
+              <a 
+                href="#portfolio" 
+                className="text-teal-500 text-lg font-semibold border-b-2 border-teal-500 hover:text-teal-400"
+                aria-label="View Portfolio"
+              >
                 See Portfolio
               </a>
             </div>
-            <p data-aos="fade-left" data-aos-duration="1500" class="flex text-headingColor items-center mt-12 gap-2 font-[500] leading-5 hover:leading-6 capitalize text-justify sm:pl-14 sm:pr-10 aos-init aos-animate">
-              <span class="mr-2 mb-16"><i class="ri-command-fill"></i></span>
-              <span>I design and code beautifully simple things, and I love what I do!!Enthusiastic
-                 Software Engineering student with a fervor for coding and a solid foundation in machine learning.
-                  Distinguished graduate known for hard work, complemented by excellent communication skills</span>
-                  
+            <p className="text-gray-700 text-base md:text-lg leading-relaxed mb-8">
+              <span className="mr-2"><i className="ri-command-fill" aria-hidden="true"></i></span>
+              I build and code full-stack applications with a focus on simplicity and user experience. As a passionate Full Stack Developer, 
+              I have strong skills in both front-end and back-end technologies. Known for my hard work and clear communication, I’m dedicated to creating effective and user-friendly software. 
+              I thrive in collaborative environments and am eager to use my skills to take on new challenges and drive innovation. 
+              Let’s connect and explore how we can work together!
             </p>
-            <div class="  gap-4 mt-14">
-            <span class="text-smallTextColor text-[18px] font-[600] gap-4">Contact:</span>
-            <span><a href="#Email" class="text-smallTextColor text-[18px] font-[600] gap-6 ml-2">
-              <i class="ri-mail-line">  balteakshay1998@gmail.com</i></a></span> <br />
-            
-            <span><a href="https://www.linkedin.com/in/akshay-balte-developer/" class="text-smallTextColor text-[18px] font-[600] ml-16">
-            <i class="ri-linkedin-box-fill">https://www.linkedin.com/in/akshay-balte-developer/</i>
-            </a></span> <br />
-            <span><a href="#Phone no" class="text-smallTextColor text-[18px] font-[600] ml-16">
-              <i class="ri-phone-line">7447686701</i></a></span></div>
+            <div className="text-gray-700 text-base md:text-lg">
+              <span className="text-teal-500 font-semibold">Contact:</span>
+              <div>
+                <a 
+                  href="mailto:balteakshay1998@gmail.com" 
+                  className="text-teal-500 font-semibold hover:text-teal-400"
+                  aria-label="Email Akshay Balte"
+                >
+                  <i className="ri-mail-line" aria-hidden="true"></i> balteakshay1998@gmail.com
+                </a>
+              </div>
+              <div>
+                <a 
+                  href="https://www.linkedin.com/in/akshay-balte-developer/" 
+                  className="text-teal-500 font-semibold hover:text-teal-400"
+                  aria-label="Visit LinkedIn Profile"
+                >
+                  <i className="ri-linkedin-box-fill" aria-hidden="true"></i> https://www.linkedin.com/in/akshay-balte-developer/
+                </a>
+              </div>
+              <div>
+                <a 
+                  href="tel:7447686701" 
+                  className="text-teal-500 font-semibold hover:text-teal-400"
+                  aria-label="Call Akshay Balte"
+                >
+                  <i className="ri-phone-line" aria-hidden="true"></i> 7447686701
+                </a>
+              </div>
+            </div>
           </div>
-          {/* Hero right (you can add more content here) */}
-          <div className="w-full md:basis-1/2">
-            <img src={heroImage} alt="Hero" />
+          {/* Image Section */}
+          <div className="w-full md:w-1/2 flex justify-center items-center">
+            <img 
+              src={heroImage} 
+              alt="Portrait of Akshay Balte" 
+              className="w-1/2 md:w-2/3 rounded-lg shadow-lg border-4 border-teal-300" 
+              style={{ maxWidth: '300px' }} // Adjust image size
+            />
           </div>
         </div>
       </div>
